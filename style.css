@@ -1,3 +1,40 @@
+:root {
+    --dark: rgb(49, 0, 77);
+    --dark-blue: rgb(58, 58, 194);
+    --light: rgb(247, 219, 255);
+    --light-blue: rgb(200, 200, 255);
+}
+
 * {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html {
+    background-color: var(--dark);
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: var(--light);
+}
+
+header a {
+    color: var(--light);
+}
+
+header a:active {
+    color: var(--light-blue);
+}
+
+main {
+    background-color: var(--light);
+    /*background-color: rgb(185, 160, 209);*/
+}
+
+main a {
+    color: var(--dark-blue);
+}
+
+footer#copyright {
+    color: var(--light);
 }
