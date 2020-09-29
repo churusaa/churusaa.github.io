@@ -1,0 +1,47 @@
+header {
+    display: block;
+    margin 1rem 0;
+}
+
+header h1 {
+    float: left;
+    padding-left: 1rem;
+}
+
+header nav {
+    float: right;
+    padding-right: 1rem;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 0.5rem;
+    margin-top: 0.75rem;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+main {
+    margin: 1rem 0;
+    display: inline-block;
+    position: relative;
+}
+
+img#headshot {
+    max-width: 40vw;
+    border-radius: 2%;
+}
+
+footer {
+    padding: 1rem;
+    text-align: center;
+}
+
+.clearfix::after {
+    clear: both;
+    content: '';
+    display block;
+}

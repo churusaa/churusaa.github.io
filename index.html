@@ -5,63 +5,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Millicent J. Duke</title>
+    <link rel="stylesheet" href="./layout.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-    <header>
-        <h1>Millicent Duke</h1>
-        <nav>
-            <ul>
-                <li>
-                    <!--about me-->
-                    <a href=#about-me>About me</a>
-                </li>
-                <li>
-                    <!--projects-->
-                    <a href=#my-projects>Projects</a>
-                </li>
-                <li>
-                    <!--footer? copyright?-->
-                    <a href=#copyright>Copyright</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+    <div class="container">
+        <header class="clearfix">
+            <h1>Millicent Duke</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <!--about me-->
+                        <a href=#about-me>About me</a>
+                    </li>
+                    <li>
+                        <!--projects-->
+                        <a href=#my-projects>Projects</a>
+                    </li>
+                    <li>
+                        <!--footer? copyright?-->
+                        <a href=#copyright>Copyright</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
 
-    <main>
-        <section id="about-me" class="about">
-            <!--biographical information-->
-            <div class="bio">
-                I’m Millie, a mother of five and US Army veteran who loves to code and solve problems. Right now, I’m working through WeCanCodeIT to make the move from my high-level technical support role into a career in development because I picked up the coding bug
-                when I was a child writing programs in BASIC, and it has stuck with me ever since. I’m happiest when I’m learning or solving a puzzle, and people like working with me because I work hard to be knowledgeable and helpful while also staying
-                kind to people who ask me to share that knowledge.
-            </div>
-            <!--photo-->
-            <figure>
-                <img src="/img/headshot.jpg">
-            </figure>
-            <!--contact info-->
-            <div class="contact-info">
-                <ul>
-                    <li>Email: <a href="mailto:millicent.j.duke@gmail.com">millicent.j.duke@gmail.com</a></li>
-                    <li>Cell: <a href="tel:6147799360">(614) 779-9360</a></li>
-                </ul>
-            </div>
-            <!--links to professional profiles (at least github and linkedin-->
-            <div class="profiles">
-                <ul>
-                    <li><a href="https://github.com/churusaa">GitHub</a></li>
-                    <li><a href="https://linkedin.com/in/milliejduke">LinkedIn</a> </li>
-                </ul>
-            </div>
-            <!--list of skills-->
-        </section class="about">
-        <section id="my-projects" class="projects">
-            <!--name of project, linked to github repo or repo pages-->
-            <!--screenshot-->
-            <!--skills/technologies used-->
-        </section class="projects">
-    </main>
+        <main class="content">
+            <section id="about-me" class="about">
+                <!--biographical information-->
+                <div class="bio">
+                    I’m Millie, a mother of five and US Army veteran who loves to code and solve problems. Right now, I’m working through <a href="https://wecancodeit.org">WeCanCodeIT</a> to make the move from my high-level technical support role to a
+                    career in development. I picked up the coding bug when I was a child writing programs in BASIC, and it has stuck with me ever since. I’m happiest when I’m learning or solving a puzzle, and people like working with me because I work
+                    hard to be knowledgeable and helpful while also staying kind to people who ask me to share that knowledge.
+                </div>
+                <!--photo-->
+                <figure>
+                    <img id="headshot" src="/img/headshot.jpg">
+                </figure>
+                <!--contact info-->
+                <div class="contact-info">
+                    <ul>
+                        <li>Email: <a href="mailto:millicent.j.duke@gmail.com">millicent.j.duke@gmail.com</a></li>
+                        <li>Cell: <a href="tel:6147799360">(614) 779-9360</a></li>
+                    </ul>
+                </div>
+                <!--links to professional profiles (at least github and linkedin-->
+                <div class="profiles">
+                    <ul>
+                        <li><a href="https://github.com/churusaa">GitHub</a></li>
+                        <li><a href="https://linkedin.com/in/milliejduke">LinkedIn</a> </li>
+                    </ul>
+                </div>
+                <!--list of skills-->
+            </section class="about">
+            <section id="my-projects" class="projects">
+                <!--name of project, linked to github repo or repo pages-->
+                <!--screenshot-->
+                <!--skills/technologies used-->
+            </section class="projects">
+        </main>
+    </div class="container">
     <footer id="copyright">
         <p>© 2020 Millicent J. Duke. All rights reserved.</p>
         <!--an appropriate footer element-->
