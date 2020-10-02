@@ -1,13 +1,17 @@
+html {
+    width: 90vw;
+    margin: auto auto;
+}
+
 header {
-    border-radius: 1%;
+    border-radius: 1rem;
     display: block;
-    margin: 1rem 0;
-    padding: 0;
+    margin: 1rem 0 2rem 0;
 }
 
 header h1 {
     float: left;
-    padding-left: 1rem;
+    padding-left: 2rem;
 }
 
 header nav {
@@ -18,13 +22,12 @@ header nav {
 header nav ul li {
     display: inline-block;
     margin-left: 0.5rem;
-    margin-top: 0.75rem;
+    margin-top: 1rem;
 }
 
 main {
-    border-radius: .5%;
+    border-radius: 1rem;
     padding: 1rem;
-    margin: 1rem;
     display: inline-block;
     position: relative;
     font-size: larger;
@@ -45,22 +48,35 @@ img#headshot {
     margin-right: auto;
 }
 
-section .reach-me {
-    display: inline-flex;
+.reach-me {
+    display: flex;
     flex-direction: row;
+    justify-content: center;
+    padding: 2rem;
+    border-radius: 1rem;
+    background-color: rgba(50, 0, 92, 0.418);
 }
 
-section .reach-me img {
+.reach-me div {
+    display: inline;
+    margin: 2rem;
+}
+
+.reach-me img {
     width: 3rem;
 }
 
+.projects strong {
+    margin: auto auto;
+}
+
 .container .projects {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    min-width: 400px;
-    width: 100vw;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-width: 300px;
     gap: 10px;
-    justify-items: stretch;
+    justify-content: space-around;
 }
 
 .project {
@@ -68,6 +84,7 @@ section .reach-me img {
     margin: auto;
     padding: 1rem;
     height: 20rem;
+    width: 30rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: larger;
     font-weight: 500;
@@ -75,6 +92,7 @@ section .reach-me img {
 
 #my-projects img {
     max-height: 90%;
+    max-width: 90%;
 }
 
 footer {

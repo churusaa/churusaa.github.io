@@ -35,6 +35,11 @@ main a {
     color: var(--dark-blue);
 }
 
+.projects strong {
+    font-size: xx-large;
+    font-weight: 700;
+}
+
 .project {
     color: var(--light);
     background-color: var(--dark);
