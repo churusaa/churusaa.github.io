@@ -35,6 +35,12 @@ main a {
     color: var(--dark-blue);
 }
 
+.project {
+    color: var(--light);
+    background-color: var(--dark);
+    border-radius: 1rem;
+}
+
 footer#copyright {
     color: var(--light);
 }
