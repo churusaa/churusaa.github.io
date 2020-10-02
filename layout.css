@@ -49,9 +49,11 @@ img#headshot {
     margin-right: auto;
 }
 
-.my-projects {
+.container .projects {
     display: grid;
-    grid-template-columns: 33% auto 33%;
+    grid-template-columns: 33% 34% 33%;
+    width: 80vw;
+    min-width: 400px;
 }
 
 #my-projects img {
