@@ -33,6 +33,10 @@
 
         <main class="content">
             <section id="about-me" class="about">
+                <!--photo-->
+                <div class="headshot">
+                    <img id="headshot" src="/img/headshot.jpg">
+                </div>
                 <!--biographical information-->
                 <div class="bio">
                     I’m Millie, a mother of five and US Army veteran who loves to code and solve problems. Right now, I’m working through <a href="https://wecancodeit.org">WeCanCodeIT</a> to make the move from my high-level technical support role to a
@@ -40,10 +44,35 @@
                     hard to be knowledgeable and helpful while also staying kind to people who ask me to share that knowledge.
                 </div>
             </section>
-            <!--photo-->
-            <figure>
-                <img id="headshot" src="/img/headshot.jpg">
-            </figure>
+            <!--list of skills-->
+            </section class="about">
+            <section id="my-projects" class="projects">
+                <strong>Projects:</strong>
+                <div class="projects container">
+                    <article class="project project__virtual-pet">
+                        <a href="https://github.com/churusaa/Virtual-pets">Virtual Pet<br>
+                            <img src="./img/virtualpet.png" alt="Screenshot of Virtual Pets project open in IntelliJ">
+                            <div>Developed with Java in IntelliJ, I worked with a team of four to build a branching,
+                                looping, dynamic pet shelter adoption simulator.</div>
+                        </a>
+                    </article>
+                    <article class="project project__butterfly-net"><a href="https://github.com/churusaa/butterflyNet">Butterfly Net<br>
+                            <img src="/img/butterflynet.png" alt="Screenshot of butterflyNet.sh open in Visual Studio">
+                            <div>Developed using Bash on Linux, this script waits for ephemeral files and captures them
+                                before they are erased as part of the cleanup process.</div>
+                        </a>
+                    </article>
+                    <article class="project project__fizzbuzz"><a href="#">FizzBuzzQix<br>
+                            <img src="/img/fizzbuzzqix.png" alt="Screenshot of fizzbuzzqix in IntelliJ">
+                            <div>Developed using Java in IntelliJ, I refactored this simple childrens' game to use
+                                simple tests and operate robustly with any group of numbers one might care to try.</div>
+                        </a>
+                    </article>
+                    <!--name of project, linked to github repo or repo pages-->
+                    <!--screenshot-->
+                    <!--skills/technologies used-->
+                </div>
+            </section>
             <section class="reach-me">
                 <!--contact info-->
                 <section class="contact-info">
@@ -63,34 +92,6 @@
                         <a href="https://linkedin.com/in/milliejduke"><img src="img/iconmonstr-linkedin-1-240.png"></a>
                     </div>
                 </section>
-            </section>
-            <!--list of skills-->
-            </section class="about">
-            <section id="my-projects" class="projects">
-                <strong>Projects:</strong>
-                <div class="projects container">
-                    <a href="https://github.com/churusaa/Virtual-pets">
-                        <article class="project project__virtual-pet">Virtual Pet<br>
-                            <img src="./img/virtualpet.png" alt="Screenshot of Virtual Pets project open in IntelliJ">
-                            <div>Developed with Java in IntelliJ, I worked with a team of four to build a branching, looping, dynamic pet shelter adoption simulator.</div>
-                        </article>
-                    </a>
-                    <a href="https://github.com/churusaa/butterflyNet">
-                        <article class="project project__butterfly-net">Butterfly Net<br>
-                            <img src="/img/butterflynet.png" alt="Screenshot of butterflyNet.sh open in Visual Studio">
-                            <div>Developed using Bash on Linux, this script waits for ephemeral files and captures them before they are erased as part of the cleanup process.</div>
-                        </article>
-                    </a>
-                    <a href="#">
-                        <article class="project project__fizzbuzz">FizzBuzzQix<br>
-                            <img src="/img/fizzbuzzqix.png" alt="Screenshot of fizzbuzzqix in IntelliJ">
-                            <div>Developed using Java in IntelliJ, I refactored this simple childrens' game to use simple tests and operate robustly with any group of numbers one might care to try.</div>
-                        </article>
-                    </a>
-                    <!--name of project, linked to github repo or repo pages-->
-                    <!--screenshot-->
-                    <!--skills/technologies used-->
-                </div>
             </section>
         </main>
     </div class="container">
