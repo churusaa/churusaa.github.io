@@ -40,6 +40,10 @@ main a {
     font-weight: 700;
 }
 
+.projects a {
+    text-decoration: none;
+}
+
 .project {
     color: var(--light);
     background-color: var(--dark);
