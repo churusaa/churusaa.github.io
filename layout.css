@@ -6,6 +6,7 @@ html {
 header {
     border-radius: 1rem;
     display: block;
+    min-width: 529px;
     margin: 1rem 0 2rem 0;
 }
 
@@ -57,14 +58,12 @@ img#headshot {
     border-radius: 5%;
 }
 
-.reach-me {
+.spacer-bar {
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin: 1rem;
     padding: 2rem;
-    border-radius: 1rem;
-    background-color: rgba(50, 0, 92, 0.418);
 }
 
 .reach-me div {
@@ -77,21 +76,23 @@ img#headshot {
 }
 
 .projects strong {
-    /* margin: auto auto; */
+    display: block;
+    margin: auto auto;
+    text-align: center;
 }
 
-.container .projects {
+#my-projects .container {
     display: inline-flex;
+    width: 100%;
     flex-direction: row;
     flex-wrap: wrap;
     min-width: 300px;
-    gap: 10px;
     justify-content: space-around;
 }
 
 .project {
     text-align: center;
-    margin: auto;
+    margin: auto 1rem 1rem;
     padding: 1rem;
     min-height: 30rem;
     max-height: fit-content;

@@ -3,6 +3,7 @@
     --dark-blue: rgb(58, 58, 194);
     --light: rgb(247, 219, 255);
     --light-blue: rgb(200, 200, 255);
+    --shaded-box: rgba(50, 0, 92, 0.418);
 }
 
 * {
@@ -35,9 +36,15 @@ main a {
     color: var(--dark-blue);
 }
 
+.spacer-bar {
+    border-radius: 1rem;
+    background-color: var(--shaded-box);
+}
+
 .projects strong {
     font-size: xx-large;
     font-weight: 700;
+    background-color:
 }
 
 .projects a {
